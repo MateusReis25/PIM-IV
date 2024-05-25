@@ -1,0 +1,262 @@
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Comfortaa", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a,
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 170px;
+}
+
+.pesquisa img {
+  width: 5%;
+}
+
+.pesquisa {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  color: #000000a1;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  background-color: #41873f;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  height: 30px;
+  list-style: none;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.seletor-para-algum-widget {
+  box-sizing: content-box;
+}
+
+.carousel-item {
+  height: 340px;
+}
+
+.carrossel {
+  padding: 20px 40px;
+}
+
+.carrossel img {
+  width: 100%;
+  height: 100%;
+}
+
+.carrossel-img {
+  border-radius: 20px;
+}
+
+.produtos {
+  padding: 0px 45px;
+}
+
+.produtos hr {
+  background-color: #00000028;
+}
+
+.tituloProdutos p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000c7;
+}
+
+.cardProduto {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardProduto img {
+  width: 90%;
+}
+
+.cardProduto:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-primary {
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  background-color: #3c9938;
+}
+
+.btn-primary:hover {
+  background-color: #2d5c2c;
+}
+
+.btnMais {
+  display: flex;
+  justify-content: center;
+}
+
+.btnMais button {
+  border: none;
+  border-radius: 15px;
+  background-color: #ff4800e7;
+  width: 17%;
+  height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: rgb(0 0 0 / 39%) 0px 5px 9px 0px;
+}
+
+.btnMais button:hover {
+  background-color: #ff4800;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-completo {
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 18px;
+  display: flex;
+  align-items: center;
+
+  padding: 20px 0px;
+}
+
+.card-completo a {
+  width: 30%;
+}
+
+.card-institucional {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #41873f;
+  color: #ffffff;
+  padding: 40px;
+  max-width: 100%;
+}
+
+.tituloFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atendimento,
+.informacoes,
+.duvidas {
+  width: 330px;
+}
+
+.duvidas a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.formaPagamento img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* INSTITUCIONAL */
+
+.sobrenos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+.filiais {
+  padding: 20px 50px;
+  display: flex;
+}
+
+.filiais section {
+  margin: 10px;
+}
+
+/* BANCO DE ALIMENTOS */
+
+.titulo-banco {
+  display: flex;
+  justify-content: center;
+}
+
+.body-banco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banco {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 18px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.banco h6,
+h4 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.body-filial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filial {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 18px;
+  width: 38%;
+  margin: 25px;
+  border-radius: 20px;
+}
